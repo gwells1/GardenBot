@@ -1,0 +1,16 @@
+# ninja log v7
+7	322	1775178900225762049	CMakeFiles/GardenBot_default_default_XC32_compile.dir/home/greg/Documents/Projects/GardenBot/main.c.o	67a01585b9c3ba84
+322	851	1775178900540764493	/home/greg/Documents/Projects/GardenBot/out/GardenBot/default.elf	caebf57b99ac7f28
+851	869	1775178901069768596	CMakeFiles/GardenBot_default_Bin2Hex	4e5f385fb32d418a
+851	869	1775178901069768596	/home/greg/Documents/Projects/GardenBot/out/GardenBot/default.hex	4e5f385fb32d418a
+851	869	1775178901069768596	/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_Bin2Hex	4e5f385fb32d418a
+5	382	1775179200352090337	CMakeFiles/GardenBot_default_default_XC32_compile.dir/home/greg/Documents/Projects/GardenBot/main.c.o	67a01585b9c3ba84
+383	825	1775179200730093270	/home/greg/Documents/Projects/GardenBot/out/GardenBot/default.elf	caebf57b99ac7f28
+826	837	1775179201173096707	CMakeFiles/GardenBot_default_Bin2Hex	4e5f385fb32d418a
+826	837	1775179201173096707	/home/greg/Documents/Projects/GardenBot/out/GardenBot/default.hex	4e5f385fb32d418a
+826	837	1775179201173096707	/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_Bin2Hex	4e5f385fb32d418a
+6	378	1775179594983152750	CMakeFiles/GardenBot_default_default_XC32_compile.dir/home/greg/Documents/Projects/GardenBot/main.c.o	67a01585b9c3ba84
+379	965	1775179595356155645	/home/greg/Documents/Projects/GardenBot/out/GardenBot/default.elf	caebf57b99ac7f28
+965	977	1775179595942160193	CMakeFiles/GardenBot_default_Bin2Hex	4e5f385fb32d418a
+965	977	1775179595942160193	/home/greg/Documents/Projects/GardenBot/out/GardenBot/default.hex	4e5f385fb32d418a
+965	977	1775179595942160193	/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_Bin2Hex	4e5f385fb32d418a
