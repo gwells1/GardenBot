@@ -8,5 +8,8 @@
 #define SW_PIN (uint32_t)1U << 22U
 
 void init_system(void);
+void init_ports(void);
+void init_OSCCTRL(void);
+void init_GCLK(void);
 
 #endif

@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.8.0-94-generic")
+set(CMAKE_HOST_SYSTEM "Linux-6.8.0-106-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-94-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-106-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/home/greg/Documents/Projects/GardenBot/cmake/GardenBot/default/.generated/toolchain.cmake")

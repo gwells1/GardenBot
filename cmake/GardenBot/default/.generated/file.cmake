@@ -15,7 +15,10 @@ foreach(source_file ${GardenBot_default_default_XC32_FILE_TYPE_assembleWithPrepr
         set_source_files_properties(${source_file} PROPERTIES INCLUDE_DIRECTORIES "$<PATH:NORMAL_PATH,$<PATH:REMOVE_FILENAME,${source_file}>>")
 endforeach()
 
-set(GardenBot_default_default_XC32_FILE_TYPE_compile "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c")
+set(GardenBot_default_default_XC32_FILE_TYPE_compile
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../configuration.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../utilities.c")
 set_source_files_properties(${GardenBot_default_default_XC32_FILE_TYPE_compile} PROPERTIES LANGUAGE C)
 set(GardenBot_default_default_XC32_FILE_TYPE_compile_cpp)
 set_source_files_properties(${GardenBot_default_default_XC32_FILE_TYPE_compile_cpp} PROPERTIES LANGUAGE CXX)

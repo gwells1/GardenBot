@@ -8,10 +8,18 @@
 #include "pic32cm1216mc00032.h"
 #include <stdint.h>
 #include "configuration.h"
+#include "utilities.h"
 
 int main(){
 
-    // Add your code here and press Ctrl + Shift + B to build
+    init_system();
+
+    while(1){
+
+        //LED_on();
+        toggle_LED();
+        simple_dly(512);
+    }
 
     return 0;
 }
