@@ -1,10 +1,10 @@
-set(CMAKE_ASM_COMPILER "/opt/microchip/xc32/v5.00/bin/xc32-gcc")
+set(CMAKE_ASM_COMPILER "c:/Program Files/Microchip/xc32/v5.00/bin/xc32-gcc.exe")
 set(CMAKE_ASM_COMPILER_ARG1 "")
-set(CMAKE_AR "/opt/microchip/xc32/v5.00/bin/xc32-ar")
+set(CMAKE_AR "c:/Program Files/Microchip/xc32/v5.00/bin/xc32-ar.exe")
 set(CMAKE_ASM_COMPILER_AR "CMAKE_ASM_COMPILER_AR-NOTFOUND")
-set(CMAKE_RANLIB "/opt/microchip/xc32/v5.00/bin/xc32-ranlib")
+set(CMAKE_RANLIB "C:/Program Files/Microchip/xc32/v5.00/bin/xc32-ranlib.exe")
 set(CMAKE_ASM_COMPILER_RANLIB "CMAKE_ASM_COMPILER_RANLIB-NOTFOUND")
-set(CMAKE_LINKER "/opt/microchip/xc32/v5.00/bin/xc32-ld")
+set(CMAKE_LINKER "C:/Program Files/Microchip/xc32/v5.00/bin/xc32-ld.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_ASM_COMPILER_LINKER "")
@@ -18,7 +18,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 set(CMAKE_ASM_COMPILER_VERSION "")
 set(CMAKE_ASM_COMPILER_ENV_VAR "ASM")
 
-set(CMAKE_ASM_COMPILER_ARCHITECTURE_ID "")
+
 
 
 set(CMAKE_ASM_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)

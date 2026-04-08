@@ -1,8 +1,8 @@
-# Install script for directory: /home/greg/Documents/Projects/GardenBot/cmake/GardenBot/default
+# Install script for directory: C:/Users/gregw/Documents/projects/GardenBot/cmake/GardenBot/default
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/GardenBot_default_project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,13 +34,13 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/opt/microchip/xc32/v5.00/bin/xc32-objdump")
+  set(CMAKE_OBJDUMP "C:/Program Files/Microchip/xc32/v5.00/bin/xc32-objdump.exe")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default/install_local_manifest.txt"
+  file(WRITE "C:/Users/gregw/Documents/projects/GardenBot/_build/GardenBot/default/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/gregw/Documents/projects/GardenBot/_build/GardenBot/default/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

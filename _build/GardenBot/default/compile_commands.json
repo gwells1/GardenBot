@@ -1,20 +1,20 @@
 [
 {
-  "directory": "/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default",
-  "command": "/opt/microchip/xc32/v5.00/bin/xc32-gcc -DXPRJ_default=default -x c -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=/home/greg/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles/GardenBot_default_default_XC32_compile.dir/home/greg/Documents/Projects/GardenBot/configuration.c.o -c /home/greg/Documents/Projects/GardenBot/configuration.c",
-  "file": "/home/greg/Documents/Projects/GardenBot/configuration.c",
-  "output": "/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_default_XC32_compile.dir/home/greg/Documents/Projects/GardenBot/configuration.c.o"
+  "directory": "C:/Users/gregw/Documents/projects/GardenBot/_build/GardenBot/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -x c -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\projects\\GardenBot\\configuration.c.o -c C:\\Users\\gregw\\Documents\\projects\\GardenBot\\configuration.c",
+  "file": "C:\\Users\\gregw\\Documents\\projects\\GardenBot\\configuration.c",
+  "output": "CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\projects\\GardenBot\\configuration.c.o"
 },
 {
-  "directory": "/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default",
-  "command": "/opt/microchip/xc32/v5.00/bin/xc32-gcc -DXPRJ_default=default -x c -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=/home/greg/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles/GardenBot_default_default_XC32_compile.dir/home/greg/Documents/Projects/GardenBot/main.c.o -c /home/greg/Documents/Projects/GardenBot/main.c",
-  "file": "/home/greg/Documents/Projects/GardenBot/main.c",
-  "output": "/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_default_XC32_compile.dir/home/greg/Documents/Projects/GardenBot/main.c.o"
+  "directory": "C:/Users/gregw/Documents/projects/GardenBot/_build/GardenBot/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -x c -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\projects\\GardenBot\\main.c.o -c C:\\Users\\gregw\\Documents\\projects\\GardenBot\\main.c",
+  "file": "C:\\Users\\gregw\\Documents\\projects\\GardenBot\\main.c",
+  "output": "CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\projects\\GardenBot\\main.c.o"
 },
 {
-  "directory": "/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default",
-  "command": "/opt/microchip/xc32/v5.00/bin/xc32-gcc -DXPRJ_default=default -x c -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=/home/greg/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles/GardenBot_default_default_XC32_compile.dir/home/greg/Documents/Projects/GardenBot/utilities.c.o -c /home/greg/Documents/Projects/GardenBot/utilities.c",
-  "file": "/home/greg/Documents/Projects/GardenBot/utilities.c",
-  "output": "/home/greg/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_default_XC32_compile.dir/home/greg/Documents/Projects/GardenBot/utilities.c.o"
+  "directory": "C:/Users/gregw/Documents/projects/GardenBot/_build/GardenBot/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -x c -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\projects\\GardenBot\\utilities.c.o -c C:\\Users\\gregw\\Documents\\projects\\GardenBot\\utilities.c",
+  "file": "C:\\Users\\gregw\\Documents\\projects\\GardenBot\\utilities.c",
+  "output": "CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\projects\\GardenBot\\utilities.c.o"
 }
 ]

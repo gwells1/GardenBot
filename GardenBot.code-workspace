@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "GardenBotRedux",
+			"path": "../../../MPLABProjects/GardenBotRedux"
+		}
+	],
+	"settings": {
+		"mplab.clangd.compileCommandsDir": "c:\\Users\\gregw\\MPLABProjects\\GardenBotRedux\\_build\\GardenBotRedux\\default",
+		"memory-inspector.debugTypes": [
+			"arm-debugger",
+			"embedded-debug",
+			"gdb",
+			"mplab-core-da"
+		],
+		"mplab.clangd.path": "c:\\Program Files\\Microchip\\xc32\\v5.00\\bin\\xc32-clangd.exe"
+	}
+}

@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "/opt/microchip/xc32/v5.00/bin/xc32-g++")
+set(CMAKE_CXX_COMPILER "c:/Program Files/Microchip/xc32/v5.00/bin/xc32-g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "13.2.1")
@@ -21,15 +21,15 @@ set(CMAKE_CXX_SIMULATE_ID "")
 set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "GNU")
 set(CMAKE_CXX_COMPILER_APPLE_SYSROOT "")
 set(CMAKE_CXX_SIMULATE_VERSION "")
-set(CMAKE_CXX_COMPILER_ARCHITECTURE_ID "")
 
 
 
-set(CMAKE_AR "/opt/microchip/xc32/v5.00/bin/xc32-ar")
+
+set(CMAKE_AR "c:/Program Files/Microchip/xc32/v5.00/bin/xc32-ar.exe")
 set(CMAKE_CXX_COMPILER_AR "CMAKE_CXX_COMPILER_AR-NOTFOUND")
-set(CMAKE_RANLIB "/opt/microchip/xc32/v5.00/bin/xc32-ranlib")
+set(CMAKE_RANLIB "C:/Program Files/Microchip/xc32/v5.00/bin/xc32-ranlib.exe")
 set(CMAKE_CXX_COMPILER_RANLIB "CMAKE_CXX_COMPILER_RANLIB-NOTFOUND")
-set(CMAKE_LINKER "/opt/microchip/xc32/v5.00/bin/xc32-ld")
+set(CMAKE_LINKER "C:/Program Files/Microchip/xc32/v5.00/bin/xc32-ld.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_CXX_COMPILER_LINKER "")

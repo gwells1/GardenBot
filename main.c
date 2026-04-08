@@ -18,7 +18,7 @@ int main(){
 
         //LED_on();
         toggle_LED();
-        simple_dly(512);
+        simple_dly(150000);
     }
 
     return 0;
