@@ -1,3 +1,17 @@
 # ninja log v6
 882	951	7973440896805617	C:/Users/gregw/Documents/projects/GardenBot/out/GardenBot/default.hex	46a0d5555942a66a
 477	882	7973440892759383	C:/Users/gregw/Documents/projects/GardenBot/out/GardenBot/default.elf	567e029e43fcb798
+35	598	7979687684371549	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/c17665/MPLABProjects/GardenBot/usart.c.o	3984979d6288df85
+22	772	7979687684247257	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/c17665/MPLABProjects/GardenBot/main.c.o	fee636859051f080
+49	777	7979687684524913	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/c17665/MPLABProjects/GardenBot/utilities.c.o	bab6af4d12a136a9
+7	778	7979687684097494	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/c17665/MPLABProjects/GardenBot/configuration.c.o	19566ad5a5bb4f50
+778	1556	7979687691808451	C:/Users/c17665/MPLABProjects/GardenBot/out/GardenBot/default.elf	2da069fc33b0d3aa
+1556	1719	7979687699589174	CMakeFiles/GardenBot_default_Bin2Hex	b9f473207639867c
+1556	1719	7979687699589174	C:/Users/c17665/MPLABProjects/GardenBot/out/GardenBot/default.hex	b9f473207639867c
+1556	1719	7979687699589174	C:/Users/c17665/MPLABProjects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_Bin2Hex	b9f473207639867c
+47	496	7979701551906596	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/c17665/MPLABProjects/GardenBot/usart.c.o	3984979d6288df85
+30	536	7979701551731396	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/c17665/MPLABProjects/GardenBot/configuration.c.o	19566ad5a5bb4f50
+537	1410	7979701556797936	C:/Users/c17665/MPLABProjects/GardenBot/out/GardenBot/default.elf	2da069fc33b0d3aa
+1411	1529	7979701565543343	CMakeFiles/GardenBot_default_Bin2Hex	b9f473207639867c
+1411	1529	7979701565543343	C:/Users/c17665/MPLABProjects/GardenBot/out/GardenBot/default.hex	b9f473207639867c
+1411	1529	7979701565543343	C:/Users/c17665/MPLABProjects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_Bin2Hex	b9f473207639867c

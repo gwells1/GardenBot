@@ -1,6 +1,6 @@
 #include "configuration.h"
-#include <component/gclk.h>
-#include <component/oscctrl.h>
+//#include <component/gclk.h>
+//#include <component/oscctrl.h>
 #include <pic32cm1216mc00032.h>
 
 #pragma config NVMCTRL_BOOTPROT = SIZE_0BYTES

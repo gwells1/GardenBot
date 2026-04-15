@@ -24,7 +24,7 @@ rule C_COMPILER__GardenBot_default_default_XC32_compile_unscanned_
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__GardenBot_default_image_1S4E_cJp_
+rule C_EXECUTABLE_LINKER__GardenBot_default_image_eAoZMXWI_
   command = cmd.exe /C "$PRE_LINK && c:\PROGRA~1\MICROC~1\xc32\v5.00\bin\xc32-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\gregw\.mplab\app-finder\apps\cmake\v4.0.2\cmake-4.0.2-windows-x86_64\bin\cmake.exe --regenerate-during-build -SC:\Users\gregw\Documents\projects\GardenBot\cmake\GardenBot\default -BC:\Users\gregw\Documents\projects\GardenBot\_build\GardenBot\default
+  command = C:\Users\c17665\.mplab\app-finder\apps\cmake\v4.0.2\cmake-4.0.2-windows-x86_64\bin\cmake.exe --regenerate-during-build -SC:\Users\c17665\MPLABProjects\GardenBot\cmake\GardenBot\default -BC:\Users\c17665\MPLABProjects\GardenBot\_build\GardenBot\default
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\Users\gregw\.mplab\app-finder\apps\ninja\v1.12.1\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\Users\c17665\.mplab\app-finder\apps\ninja\v1.12.1\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -59,6 +59,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\Users\gregw\.mplab\app-finder\apps\ninja\v1.12.1\ninja.exe -t targets
+  command = C:\Users\c17665\.mplab\app-finder\apps\ninja\v1.12.1\ninja.exe -t targets
   description = All primary targets available:
 

@@ -27,4 +27,25 @@ USART confugration notes
         -Configure the number of stop bits (CTRLB.SBMODE)
         -For the internal clock, configure the baud rate generator (BAUD)
         -Enable transmitter and receiver (0x1 to CTRLB.RXEN and CTRLB.TXEN)
+    -Error handling
+        -RX has 3 error bits in the status register
+    -A Loopback mode is available 
+    -Start of frame detection can wake the CPU up from sleep
+    -DMA is available for this peripheral
 */
+
+#include "usart.h"
+#include <pic32cm1216mc00032.h>
+
+void init_USART(){
+    //ToDo: Select Clock
+    //ToDo: Select Asynchronous Mode
+    //ToDo: Configure RX pin
+    //ToDo: Configure TX pin
+    //ToDo: Set Character size to 8 bits
+    //ToDo: Configure Endianness (MSB first)
+    //ToDo: Disable parity mode (for now)
+    //ToDo: Set number of stop bits to 1
+    //ToDo: Configure baud rate
+    //ToDo: Enable the Transmitter (For now, enable receiver later.  Consider enabling the transmitter in another function)
+}
