@@ -1,10 +1,10 @@
 {
-    "mplab.clangd.compileCommandsDir": "${workspaceFolder}/_build/GardenBot/default",
+    "mplab.clangd.compileCommandsDir": "${workspaceFolder}\\_build\\GardenBot\\default",
     "memory-inspector.debugTypes": [
         "arm-debugger",
         "embedded-debug",
         "gdb",
         "mplab-core-da"
     ],
-    "mplab.clangd.path": "/opt/microchip/xc32/v5.00/bin/xc32-clangd"
+    "mplab.clangd.path": "c:\\Program Files\\Microchip\\xc32\\v5.00\\bin\\xc32-clangd.exe"
 }
