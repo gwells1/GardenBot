@@ -9,16 +9,19 @@
 #include <stdint.h>
 #include "configuration.h"
 #include "utilities.h"
+#include "usart.h"
 
 int main(){
 
     init_system();
+    init_USART();
 
     while(1){
 
         //LED_on();
         toggle_LED();
-        simple_dly(150000);
+        USART_sendChar("C");
+        simple_dly(600000);
     }
 
     return 0;

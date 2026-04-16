@@ -1,6 +1,5 @@
 #include "configuration.h"
-//#include <component/gclk.h>
-//#include <component/oscctrl.h>
+#include <component/gclk.h>
 #include <pic32cm1216mc00032.h>
 
 #pragma config NVMCTRL_BOOTPROT = SIZE_0BYTES
@@ -41,7 +40,7 @@ void init_OSCCTRL(){
     OSCCTRL_REGS->OSCCTRL_CAL48M = calibValue;
 
     //Seclect the division value
-    OSCCTRL_REGS->OSCCTRL_OSC48MDIV = (uint8_t)OSCCTRL_OSC48MDIV_DIV(0xFUL);
+    OSCCTRL_REGS->OSCCTRL_OSC48MDIV = (uint8_t)OSCCTRL_OSC48MDIV_DIV(0x0UL);
 
     //Wait for Synchronization
     while((OSCCTRL_REGS->OSCCTRL_OSC48MSYNCBUSY & OSCCTRL_OSC48MSYNCBUSY_Msk) == OSCCTRL_OSC48MSYNCBUSY_Msk);
@@ -53,7 +52,18 @@ void init_OSCCTRL(){
 }
 
 void init_GCLK(){
+    //Configure GCLK0 to run at 48MHz using the OSC48M for the main clock
     GCLK_REGS->GCLK_GENCTRL[0] = GCLK_GENCTRL_DIV(0x00UL) | GCLK_GENCTRL_SRC(6UL) | GCLK_GENCTRL_GENEN_Msk;
-
+    
+    //Wait for synchronization to complete
     while((GCLK_REGS->GCLK_SYNCBUSY & GCLK_SYNCBUSY_GENCTRL0_Msk) == GCLK_SYNCBUSY_GENCTRL0_Msk);
+
+    //Configure GCLK1 to run at 48MHz using the OSC48M for the SERCON0 clock
+    GCLK_REGS->GCLK_GENCTRL[1] = GCLK_GENCTRL_DIV(0x0000UL) | GCLK_GENCTRL_SRC(6UL) | GCLK_GENCTRL_GENEN_Msk;
+
+    //Wait for synchronization to complete
+    while((GCLK_REGS->GCLK_SYNCBUSY & GCLK_SYNCBUSY_GENCTRL1_Msk) == GCLK_SYNCBUSY_GENCTRL1_Msk);
+
+    //Enable peripheral channel for SERCOM0 on GCLK1
+    GCLK_REGS->GCLK_PCHCTRL[19] = GCLK_PCHCTRL_WRTLOCK(0x0U) | GCLK_PCHCTRL_CHEN(0x1U) | GCLK_PCHCTRL_GEN_GCLK1;
 }

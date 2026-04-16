@@ -35,17 +35,20 @@ USART confugration notes
 */
 
 #include "usart.h"
+#include <component/sercom.h>
+#include <xc.h>
 #include <pic32cm1216mc00032.h>
 
 void init_USART(){
-    //ToDo: Select Clock
-    //ToDo: Select Asynchronous Mode
-    //ToDo: Configure RX pin
-    //ToDo: Configure TX pin
-    //ToDo: Set Character size to 8 bits
-    //ToDo: Configure Endianness (MSB first)
-    //ToDo: Disable parity mode (for now)
-    //ToDo: Set number of stop bits to 1
-    //ToDo: Configure baud rate
+    //Configure CTRLA: internal clk, Generic clk disabled when transfer is finished, 16x sampling, TXP set to SERCOM_PAD[0], RXP set to SERCOM_PAD[1], Sample Adjustment set to 7-8-9, USART Frame, Async Mode, Rising XCK (TX), MSB first
+    SERCOM0_REGS -> USART_INT.SERCOM_CTRLA = SERCOM_USART_INT_CTRLA_MODE_USART_INT_CLK_Val | SERCOM_USART_INT_CTRLA_RUNSTDBY(0x0U) | SERCOM_USART_INT_CTRLA_SAMPR_16X_ARITHMETIC_Val | SERCOM_USART_INT_CTRLA_TXPO(0x0U) | SERCOM_USART_INT_CTRLA_RXPO(0x1U) | SERCOM_USART_INT_CTRLA_SAMPA(0x0U) | SERCOM_USART_INT_CTRLA_FORM(0x0U) | SERCOM_USART_INT_CTRLA_CMODE_ASYNC | SERCOM_USART_INT_CTRLA_CPOL(0x0U) | SERCOM_USART_INT_CTRLA_DORD_MSB; 
+    //Configure CTRLB: 8 Bit char size, 1 stop bit, no collision detection, ST of Frame detection disabled, Data is not Encoded, Even Parity, TX enabled, RX disabled (for now), Normal UART tx
+    SERCOM0_REGS -> USART_INT.SERCOM_CTRLB = SERCOM_USART_INT_CTRLB_CHSIZE_8_BIT | SERCOM_USART_INT_CTRLB_SBMODE_1_BIT | SERCOM_USART_INT_CTRLB_COLDEN(0x0U) | SERCOM_USART_INT_CTRLB_SFDE(0x0U) | SERCOM_USART_INT_CTRLB_ENC_DISABLE | SERCOM_USART_INT_CTRLB_PMODE_EVEN | SERCOM_USART_INT_CTRLB_TXEN(0x1U) | SERCOM_USART_INT_CTRLB_RXEN(0x0U) | SERCOM_USART_INT_CTRLB_LINCMD(0x0U);
+    //Configure baud rate for 9600 Baud
+    SERCOM0_REGS -> USART_INT.SERCOM_BAUD = SERCOM_USART_INT_BAUD_BAUD(0xFF2DUL);
     //ToDo: Enable the Transmitter (For now, enable receiver later.  Consider enabling the transmitter in another function)
+}
+
+void USART_sendChar(char letter){
+    SERCOM0_REGS -> USART_INT.SERCOM_DATA = letter;
 }
