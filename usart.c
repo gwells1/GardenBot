@@ -46,7 +46,8 @@ void init_USART(){
     SERCOM0_REGS -> USART_INT.SERCOM_CTRLB = SERCOM_USART_INT_CTRLB_CHSIZE_8_BIT | SERCOM_USART_INT_CTRLB_SBMODE_1_BIT | SERCOM_USART_INT_CTRLB_COLDEN(0x0U) | SERCOM_USART_INT_CTRLB_SFDE(0x0U) | SERCOM_USART_INT_CTRLB_ENC_DISABLE | SERCOM_USART_INT_CTRLB_PMODE_EVEN | SERCOM_USART_INT_CTRLB_TXEN(0x1U) | SERCOM_USART_INT_CTRLB_RXEN(0x0U) | SERCOM_USART_INT_CTRLB_LINCMD(0x0U);
     //Configure baud rate for 9600 Baud
     SERCOM0_REGS -> USART_INT.SERCOM_BAUD = SERCOM_USART_INT_BAUD_BAUD(0xFF2DUL);
-    //ToDo: Enable the Transmitter (For now, enable receiver later.  Consider enabling the transmitter in another function)
+    //Enable the Transmitter (For now, enable receiver later.  Consider enabling the transmitter in another function)
+    SERCOM0_REGS -> USART_INT.SERCOM_CTRLA |= SERCOM_USART_INT_CTRLA_ENABLE(0x1UL);
 }
 
 void USART_sendChar(char letter){

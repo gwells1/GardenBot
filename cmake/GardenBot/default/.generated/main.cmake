@@ -53,17 +53,17 @@ endif()
 
 
 # Main target for this project
-add_executable(GardenBot_default_image_eAoZMXWI ${GardenBot_default_library_list})
+add_executable(GardenBot_default_image_1S4E_cJp ${GardenBot_default_library_list})
 
-set_target_properties(GardenBot_default_image_eAoZMXWI PROPERTIES
+set_target_properties(GardenBot_default_image_1S4E_cJp PROPERTIES
     OUTPUT_NAME "default"
     SUFFIX ".elf"
     RUNTIME_OUTPUT_DIRECTORY "${GardenBot_default_output_dir}")
-target_link_libraries(GardenBot_default_image_eAoZMXWI PRIVATE ${GardenBot_default_default_XC32_FILE_TYPE_link})
+target_link_libraries(GardenBot_default_image_1S4E_cJp PRIVATE ${GardenBot_default_default_XC32_FILE_TYPE_link})
 
 # Add the link options from the rule file.
-GardenBot_default_link_rule( GardenBot_default_image_eAoZMXWI)
+GardenBot_default_link_rule( GardenBot_default_image_1S4E_cJp)
 
 # Call bin2hex function from the rule file
-GardenBot_default_bin2hex_rule(GardenBot_default_image_eAoZMXWI)
+GardenBot_default_bin2hex_rule(GardenBot_default_image_1S4E_cJp)
 

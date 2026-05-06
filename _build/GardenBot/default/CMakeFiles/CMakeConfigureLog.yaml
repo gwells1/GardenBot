@@ -4,17 +4,17 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/c17665/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "C:/Users/gregw/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:200 (message)"
       - "CMakeLists.txt:13 (project)"
     message: |
       The target system is: Generic -  - 
-      The host system is: Windows - 10.0.22631 - 
+      The host system is: Windows - 10.0.26200 - 
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/c17665/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/c17665/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/c17665/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/gregw/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/gregw/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/gregw/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -30,14 +30,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        C:/Users/c17665/MPLABProjects/GardenBot/_build/GardenBot/default/CMakeFiles/4.0.2/CompilerIdC/a.out
+        C:/Users/gregw/Documents/projects/GardenBot/_build/GardenBot/default/CMakeFiles/4.0.2/CompilerIdC/a.out
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/c17665/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/c17665/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/c17665/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/gregw/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/gregw/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/gregw/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -53,13 +53,13 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/c17665/MPLABProjects/GardenBot/_build/GardenBot/default/CMakeFiles/4.0.2/CompilerIdCXX/a.out
+        C:/Users/gregw/Documents/projects/GardenBot/_build/GardenBot/default/CMakeFiles/4.0.2/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/c17665/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1271 (message)"
-      - "C:/Users/c17665/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/gregw/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1271 (message)"
+      - "C:/Users/gregw/.mplab/app-finder/apps/cmake/v4.0.2/cmake-4.0.2-windows-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:13 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":

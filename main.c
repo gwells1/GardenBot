@@ -20,9 +20,10 @@ int main(){
 
         //LED_on();
         toggle_LED();
-        USART_sendChar("C");
+        USART_sendChar('C');
         simple_dly(600000);
     }
 
     return 0;
 }
+

@@ -1,5 +1,6 @@
 #include "configuration.h"
 #include <component/gclk.h>
+#include <component/port.h>
 #include <pic32cm1216mc00032.h>
 
 #pragma config NVMCTRL_BOOTPROT = SIZE_0BYTES
@@ -26,11 +27,16 @@ void init_system(void){
 
 void init_ports(){
     //Configure Ports (BaseAddress: 0x41000000)
-    PORT_REGS->GROUP[0].PORT_DIR = LED_PIN; // Set LED pin as output
+    PORT_REGS->GROUP[0].PORT_DIR = LED_PIN | USART_TX;     // Set LED pin as an output
+    //PORT_REGS->GROUP[0].PORT_DIR = USART_TX;    // Set USART TX pin as an output
     PORT_REGS->GROUP[0].PORT_OUT = SW_PIN; // Set switch pin high (pull-up)
     PORT_REGS->GROUP[0].PORT_PINCFG[22] = 0x6UL; // Configure port control for switch, enable internal pullup, enable input buffer 
     PORT_REGS->GROUP[0].PORT_PINCFG[23] = 0x0UL; // Configure port control for LED, no pullup, enable output buffer
-
+    PORT_REGS->GROUP[0].PORT_PINCFG[8] = 0x1UL; //Configure port control to enable the peripheral multiplexer on PA8 (will need to do this on PA9 when  RX  is added)
+    //ToDo: Figure out how to configure the ports for peripheral operation
+    PORT_REGS->GROUP[0].PORT_PMUX[4] &= 0xF0UL;
+    PORT_REGS->GROUP[0].PORT_PMUX[4] |= 0x02UL;
+    //PORT_REGS->GROUP[0].PORT_WRCONFIG =  PORT_WRCONFIG_HWSEL(0x0UL) | PORT_WRCONFIG_WRPINCFG(0x1UL) | PORT_WRCONFIG_WRPMUX(0x2UL) | PORT_WRCONFIG_PMUXEN(0x1UL) | PORT_WRCONFIG_PINMASK(0x8UL); 
     PORT_REGS->GROUP[0].PORT_OUTSET = LED_PIN; // Turn off LED (active low)
 }
 
