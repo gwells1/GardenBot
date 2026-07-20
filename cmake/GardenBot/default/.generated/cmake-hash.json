@@ -1,6 +1,7 @@
 {
-    "hashFileVersion": "1.0.0",
-    "projectFileHash": "36cf9e080515448f8ad5a0a755dee7a831ad839b6440c1514648ac783953d455",
-    "cmakeFilesHash": "d01c7365cf972b8d8e6b1ae776e3c95cbda2370d3f11f31f1b170c31867542ad",
-    "cmakerVersion": "4.2.1"
+    "hashFileVersion": "1.1.0",
+    "projectFileHash": "fb53168df5ff1502e2b010146b23ac8018b750737730ce7b585ad1ba9d9fa3ff",
+    "cmakeFilesHash": "8c63ae5d43717adf3e9ca7e6c5dba6e905b00f7678b82ad2d68fc3937ac34787",
+    "cmakerVersion": "4.3.0",
+    "workspacePath": "c:/users/gregw/documents/projects/gardenbot"
 }
