@@ -2,7 +2,7 @@
 #include "configuration.h"
 #include <pic32cm1216mc00032.h>
 
-void simple_dly(uint32_t delay){
+void simple_delay(uint32_t delay){
     while(delay > 0){
         delay--;
     }

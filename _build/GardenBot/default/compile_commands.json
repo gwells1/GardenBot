@@ -1,26 +1,38 @@
 [
 {
   "directory": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default",
-  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\Projects\\GardenBot\\configuration.c.o -c C:\\Users\\gregw\\Documents\\Projects\\GardenBot\\configuration.c",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\Projects\\GardenBot\\SPI.c.o -c C:\\Users\\gregw\\Documents\\Projects\\GardenBot\\SPI.c",
+  "file": "C:/Users/gregw/Documents/Projects/GardenBot/SPI.c",
+  "output": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/SPI.c.o"
+},
+{
+  "directory": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\Projects\\GardenBot\\configuration.c.o -c C:\\Users\\gregw\\Documents\\Projects\\GardenBot\\configuration.c",
   "file": "C:/Users/gregw/Documents/Projects/GardenBot/configuration.c",
   "output": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/configuration.c.o"
 },
 {
   "directory": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default",
-  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\Projects\\GardenBot\\main.c.o -c C:\\Users\\gregw\\Documents\\Projects\\GardenBot\\main.c",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\Projects\\GardenBot\\main.c.o -c C:\\Users\\gregw\\Documents\\Projects\\GardenBot\\main.c",
   "file": "C:/Users/gregw/Documents/Projects/GardenBot/main.c",
   "output": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/main.c.o"
 },
 {
   "directory": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default",
-  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\Projects\\GardenBot\\usart.c.o -c C:\\Users\\gregw\\Documents\\Projects\\GardenBot\\usart.c",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\Projects\\GardenBot\\usart.c.o -c C:\\Users\\gregw\\Documents\\Projects\\GardenBot\\usart.c",
   "file": "C:/Users/gregw/Documents/Projects/GardenBot/usart.c",
   "output": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/usart.c.o"
 },
 {
   "directory": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default",
-  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\Projects\\GardenBot\\utilities.c.o -c C:\\Users\\gregw\\Documents\\Projects\\GardenBot\\utilities.c",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\Projects\\GardenBot\\utilities.c.o -c C:\\Users\\gregw\\Documents\\Projects\\GardenBot\\utilities.c",
   "file": "C:/Users/gregw/Documents/Projects/GardenBot/utilities.c",
   "output": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/utilities.c.o"
+},
+{
+  "directory": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc32\\v5.00\\bin\\xc32-gcc.exe -DXPRJ_default=default -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032 -o CMakeFiles\\GardenBot_default_default_XC32_compile.dir\\C_\\Users\\gregw\\Documents\\Projects\\GardenBot\\weatherClick.c.o -c C:\\Users\\gregw\\Documents\\Projects\\GardenBot\\weatherClick.c",
+  "file": "C:/Users/gregw/Documents/Projects/GardenBot/weatherClick.c",
+  "output": "C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/weatherClick.c.o"
 }
 ]

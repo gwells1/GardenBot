@@ -1,9 +1,9 @@
 # ninja log v7
-37	1455	8062239981727444	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/main.c.o	9afc9bfe8a79df26
-42	1457	8062239981783067	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/usart.c.o	227ac3c36432d6a2
-30	1458	8062239981661855	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/configuration.c.o	1614434fad26d085
-48	1458	8062239981838865	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/utilities.c.o	1ecabf8a744ba0f5
-1459	2007	8062239995947068	C:/Users/gregw/Documents/Projects/GardenBot/out/GardenBot/default.elf	74e8717792ab2227
-2007	2216	8062240001430105	CMakeFiles/GardenBot_default_Bin2Hex	b56547bc9253ebe2
-2007	2216	8062240001430105	C:/Users/gregw/Documents/Projects/GardenBot/out/GardenBot/default.hex	b56547bc9253ebe2
-2007	2216	8062240001430105	C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_Bin2Hex	b56547bc9253ebe2
+15	212	8068251768417129	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/main.c.o	d0b8b3b2e67d6689
+187	1698	8068247757304052	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/usart.c.o	ed390fdad7b0a84
+14	213	8068251118899991	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/configuration.c.o	7fbdf1ca964859ea
+30	230	8068248959164495	CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/utilities.c.o	27d9d8ba15e0c12b
+213	496	8068251770397528	C:/Users/gregw/Documents/Projects/GardenBot/out/GardenBot/default.elf	74e8717792ab2227
+496	536	8068251773237922	CMakeFiles/GardenBot_default_Bin2Hex	b56547bc9253ebe2
+496	536	8068251773237922	C:/Users/gregw/Documents/Projects/GardenBot/out/GardenBot/default.hex	b56547bc9253ebe2
+496	536	8068251773237922	C:/Users/gregw/Documents/Projects/GardenBot/_build/GardenBot/default/CMakeFiles/GardenBot_default_Bin2Hex	b56547bc9253ebe2

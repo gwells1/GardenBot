@@ -44,10 +44,22 @@ cmake_ninja_workdir = C$:/Users/gregw/Documents/Projects/GardenBot/_build/Garden
 
 build cmake_object_order_depends_target_GardenBot_default_default_XC32_compile: phony || .
 
+build CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/SPI.c.o: C_COMPILER__GardenBot_default_default_XC32_compile_unscanned_ C$:/Users/gregw/Documents/Projects/GardenBot/SPI.c || cmake_object_order_depends_target_GardenBot_default_default_XC32_compile
+  DEFINES = -DXPRJ_default=default
+  DEP_FILE = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot\SPI.c.o.d
+  FLAGS = -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032
+  INCLUDES = -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include
+  OBJECT_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir
+  OBJECT_FILE_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot
+  TARGET_COMPILE_PDB = CMakeFiles\GardenBot_default_default_XC32_compile.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir
+
 build CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/configuration.c.o: C_COMPILER__GardenBot_default_default_XC32_compile_unscanned_ C$:/Users/gregw/Documents/Projects/GardenBot/configuration.c || cmake_object_order_depends_target_GardenBot_default_default_XC32_compile
   DEFINES = -DXPRJ_default=default
   DEP_FILE = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot\configuration.c.o.d
   FLAGS = -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032
+  INCLUDES = -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include
   OBJECT_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir
   OBJECT_FILE_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot
   TARGET_COMPILE_PDB = CMakeFiles\GardenBot_default_default_XC32_compile.dir\
@@ -58,6 +70,7 @@ build CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Docum
   DEFINES = -DXPRJ_default=default
   DEP_FILE = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot\main.c.o.d
   FLAGS = -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032
+  INCLUDES = -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include
   OBJECT_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir
   OBJECT_FILE_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot
   TARGET_COMPILE_PDB = CMakeFiles\GardenBot_default_default_XC32_compile.dir\
@@ -68,6 +81,7 @@ build CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Docum
   DEFINES = -DXPRJ_default=default
   DEP_FILE = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot\usart.c.o.d
   FLAGS = -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032
+  INCLUDES = -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include
   OBJECT_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir
   OBJECT_FILE_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot
   TARGET_COMPILE_PDB = CMakeFiles\GardenBot_default_default_XC32_compile.dir\
@@ -78,6 +92,18 @@ build CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Docum
   DEFINES = -DXPRJ_default=default
   DEP_FILE = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot\utilities.c.o.d
   FLAGS = -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032
+  INCLUDES = -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include
+  OBJECT_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir
+  OBJECT_FILE_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot
+  TARGET_COMPILE_PDB = CMakeFiles\GardenBot_default_default_XC32_compile.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir
+
+build CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/weatherClick.c.o: C_COMPILER__GardenBot_default_default_XC32_compile_unscanned_ C$:/Users/gregw/Documents/Projects/GardenBot/weatherClick.c || cmake_object_order_depends_target_GardenBot_default_default_XC32_compile
+  DEFINES = -DXPRJ_default=default
+  DEP_FILE = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot\weatherClick.c.o.d
+  FLAGS = -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32CM1216MC00032 -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032
+  INCLUDES = -IC:/Users/gregw/.mchp_packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include
   OBJECT_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir
   OBJECT_FILE_DIR = CMakeFiles\GardenBot_default_default_XC32_compile.dir\C_\Users\gregw\Documents\Projects\GardenBot
   TARGET_COMPILE_PDB = CMakeFiles\GardenBot_default_default_XC32_compile.dir\
@@ -89,7 +115,7 @@ build CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Docum
 #############################################
 # Object library GardenBot_default_default_XC32_compile
 
-build GardenBot_default_default_XC32_compile: phony CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/configuration.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/main.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/usart.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/utilities.c.o
+build GardenBot_default_default_XC32_compile: phony CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/SPI.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/configuration.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/main.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/usart.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/utilities.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/weatherClick.c.o
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GardenBot_default_image_b6TNGsHU
@@ -108,7 +134,7 @@ build cmake_object_order_depends_target_GardenBot_default_image_b6TNGsHU: phony 
 #############################################
 # Link the executable C:\Users\gregw\Documents\Projects\GardenBot\out\GardenBot\default.elf
 
-build C$:/Users/gregw/Documents/Projects/GardenBot/out/GardenBot/default.elf: C_EXECUTABLE_LINKER__GardenBot_default_image_b6TNGsHU_ CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/configuration.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/main.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/usart.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/utilities.c.o || GardenBot_default_default_XC32_compile
+build C$:/Users/gregw/Documents/Projects/GardenBot/out/GardenBot/default.elf: C_EXECUTABLE_LINKER__GardenBot_default_image_b6TNGsHU_ CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/SPI.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/configuration.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/main.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/usart.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/utilities.c.o CMakeFiles/GardenBot_default_default_XC32_compile.dir/C_/Users/gregw/Documents/Projects/GardenBot/weatherClick.c.o || GardenBot_default_default_XC32_compile
   LINK_FLAGS = -g -mprocessor=32CM1216MC00032 -Wl,--defsym=__MPLAB_BUILD=1,-Map=mem.map,--report-mem,--memorysummary,memoryfile.xml -mdfp=C:/Users/gregw/.mchp_packs/Microchip/PIC32CM-MC_DFP/1.4.67/PIC32CM1216MC00032
   OBJECT_DIR = CMakeFiles\GardenBot_default_image_b6TNGsHU.dir
   POST_BUILD = cd .

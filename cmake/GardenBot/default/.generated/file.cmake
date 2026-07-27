@@ -16,10 +16,12 @@ foreach(source_file ${GardenBot_default_default_XC32_FILE_TYPE_assembleWithPrepr
 endforeach()
 
 set(GardenBot_default_default_XC32_FILE_TYPE_compile
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../SPI.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../configuration.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../usart.c"
-    "${CMAKE_CURRENT_SOURCE_DIR}/../../../utilities.c")
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../utilities.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../weatherClick.c")
 set_source_files_properties(${GardenBot_default_default_XC32_FILE_TYPE_compile} PROPERTIES LANGUAGE C)
 set(GardenBot_default_default_XC32_FILE_TYPE_compile_cpp)
 set_source_files_properties(${GardenBot_default_default_XC32_FILE_TYPE_compile_cpp} PROPERTIES LANGUAGE CXX)

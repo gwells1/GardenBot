@@ -5,23 +5,23 @@
  * @brief Main function
  */
 
-#include "pic32cm1216mc00032.h"
+#include "definitions.h"
+#include <pic32cm1216mc00032.h>
 #include <stdint.h>
-#include "configuration.h"
-#include "utilities.h"
-#include "usart.h"
 
 int main(){
 
     init_system();
     init_USART();
+    //init_SPI();
+
+     send_string("SPI Weather Click Example\n");
 
     while(1){
 
-        //LED_on();
+        send_string("Dummy Data:\n");
         toggle_LED();
-        USART_sendChar('C');
-        simple_dly(600000);
+        simple_delay(3600000);
     }
 
     return 0;

@@ -6,5 +6,8 @@
         "gdb",
         "mplab-core-da"
     ],
-    "mplab.clangd.path": "c:\\Program Files\\Microchip\\xc32\\v5.00\\bin\\xc32-clangd.exe"
+    "mplab.clangd.path": "c:\\Program Files\\Microchip\\xc32\\v5.00\\bin\\xc32-clangd.exe",
+    "mplab.clangd.arguments": [
+        "--header-insertion=never"
+    ]
 }
